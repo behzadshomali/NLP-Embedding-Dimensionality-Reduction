@@ -12,6 +12,7 @@ Project repository of group 14, nlp course @ university of bonn
 - [Overleaf](https://www.overleaf.com/project/64600af61701ca4ed47115be)
 
 ## Approach 1
+- Variational Autoencoder
 - Short description
 
 ## Approach 2

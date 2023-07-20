@@ -1,1 +1,4 @@
-The embedding results are located here, train_embeddings.p and test_embeddings_originals.p are the embeddings over the complete dataset.
+The embedding results are located here,
+* for CheckThat_Lab train_embeddings.p and test_embeddings_originals.p are the embeddings over the complete dataset.
+* for FEVER in FEVER folder
+* for Aspect_Sentiment in Aspect Folder

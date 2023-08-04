@@ -1,5 +1,5 @@
-# Approach 3
-Subrepository for approach 3
+# Approach 2
+Subrepository for approach 2
 
 ## Members
 - Behzad Shomali

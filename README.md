@@ -34,4 +34,4 @@ Volume 2, Issue 1, April 2022
 
 ## Results and Report
 - Experiments are done with ML classifiers such as SVM, MLP, and Random Forest on the three datasets, Naive Bayes, and KNN. F1-Scores, Time Inference, and Memory Consumption Plots: [Result](https://github.com/s-knauer/nlp-edra/tree/main/plots)
-- Report: ...
+- [Final Report](https://github.com/s-knauer/nlp-edra/tree/main/Problem_Solving)

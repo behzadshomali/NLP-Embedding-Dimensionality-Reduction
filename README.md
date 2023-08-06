@@ -16,7 +16,7 @@ Project repository of group 14, nlp course @ university of bonn
   
 <div style="display: flex; justify-content: center; align-items: center;">
   <figure style="text-align: center;">
-    <img src="/Approach%201/vae.jpg" alt="VAE Architecture" width="600px" height="200px">
+    <img src="/Approach%201/vae.jpg" alt="VAE Architecture" width="700px" height="300px">
     <figcaption><b>Architecture of Variational Autoencoder (<a href="https://learnopencv.com/variational-autoencoder-in-tensorflow/">source</a>)</b></figcaption>
   </figure>
 </div>

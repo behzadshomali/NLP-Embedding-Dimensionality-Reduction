@@ -13,18 +13,14 @@ Project repository of group 14, nlp course @ university of bonn
 
 ## Approach 1
 - Variational Autoencoder
-- Short description
   
-<div style="display: flex; align-items: center;">
-  <figure>
-      <img src="/Approach%201/Encoder.png" alt="Encoder" width="300px" height="200px">
-      <figcaption><b>Encoder</b></figcaption>
-  </figure>
-  <figure>
-      <img src="/Approach%201/Decoder.png" alt="Decoder" width="180px" height="150px">
-      <figcaption><b>Decoder</b></figcaption>
+<div style="display: flex; justify-content: center; align-items: center;">
+  <figure style="text-align: center;">
+    <img src="/Approach%201/vae.jpg" alt="VAE Architecture" width="600px" height="200px">
+    <figcaption><b>Architecture of Variational Autoencoder (<a href="https://learnopencv.com/variational-autoencoder-in-tensorflow/">source</a>)</b></figcaption>
   </figure>
 </div>
+
 
 ## Approach 2
 - Short description

@@ -1,5 +1,5 @@
 # NLP - Embedding Dimensionality Reduction Approaches
-Project repository of group 14, nlp course @ university of bonn
+Project repository of our group, NLP course @ University of Bonn
 
 ## Members
 - Arwah Jawwad
@@ -12,8 +12,22 @@ Project repository of group 14, nlp course @ university of bonn
 - [project_outline](https://github.com/s-knauer/nlp-edra/tree/main/project_outline)
 
 ## Dataset
-- We use three different [datasets](https://github.com/s-knauer/nlp-edra/tree/main/datasets): [Aspect Sentiment Classification Dataset](https://github.com/akkarimi/BERT-For-ABSA/tree/master/asc) - [CheckThat Lab 2023 - Subjectivity Detection](https://gitlab.com/checkthat_lab) - [FEVER](https://fever.ai/dataset/fever.html)
-- The [embeddings](https://github.com/s-knauer/nlp-edra/tree/main/SBERT) are calculated using [SBERT](https://www.sbert.net/). 
+In order to compare the results of the language models with compressed embeddings we train them to perform a downstream task such as classification on different datasets. For this, we will be using the following three classification datasets to compare the results ([datasets](https://github.com/s-knauer/nlp-edra/tree/main/datasets)):
+- **Dataset: CheckThat Lab - Subjectivity Detection:**
+    - The task is to predict whether a given sentence from a news article is subjective or objective.
+    - The train/dev/test set contains 830/219/244 sentences
+    - The data contains binary labels `SUBJ` or `OBJ`
+
+- **Dataset: Aspect Sentiment Classification Dataset:**
+    - The aim is to classify the sentiment toward each sentence as positive, negative, or neutral given the aspect and the review sentence.
+    - The dataset is divided into train test and dev sets. Each entity has a classification label, `polarity` having the values positive, negative, or neutral.
+
+- **Dataset: FEVER (Fact Extraction and VERification):**
+    - The task is to predict whether a given claim is supported or refuted by verifying the facts or whether `notEnoughInfo` is present to make a decision.
+    - The dataset consists of 185,445 sentences.
+    - The claims are classified as `Supported`, `Refuted`, or `NotEnoughInfo`. 
+
+- _The [embeddings](https://github.com/s-knauer/nlp-edra/tree/main/SBERT) are calculated using [SBERT](https://www.sbert.net/)._ 
 
 ## Approach [1](https://github.com/s-knauer/nlp-edra/tree/main/Approach%201)
 - Variational Autoencoder

@@ -16,7 +16,7 @@ In recent years, the trend has been to develop more powerful, but larger, langua
 * **Robustness to Noise:** We expect the compressed models to demonstrate resilience against noisy or perturbed inputs in real-world scenarios.
 
 ## Dataset
-In order to compare the results of the language models with compressed embeddings we train them to perform a downstream task such as classification on different datasets. For this, we used the following three classification datasets to compare the results ([datasets](https://github.com/s-knauer/nlp-edra/tree/main/datasets)):
+In order to compare the results of the language models with compressed embeddings we train them to perform a downstream task such as classification on different datasets. For this, we used the following three classification datasets to compare the results:
 - **Dataset: CheckThat Lab - Subjectivity Detection:**
     - The task is to predict whether a given sentence from a news article is subjective or objective.
     - The train/dev/test set contains 830/219/244 sentences
@@ -33,7 +33,7 @@ In order to compare the results of the language models with compressed embedding
 
 *The are calculated using [SBERT](https://www.sbert.net/) and Glove.*
 
-## Approach [1](https://github.com/s-knauer/nlp-edra/tree/main/Approach%201)
+## Approach [1](./Approach%201)
 - Variational Autoencoder (VAE)
 
 *VAE is a generative model that combines autoencoder concepts with probabilistic modeling. Its goal is to learn a hidden representation of input data, capturing its underlying patterns in an unsupervised manner, enabling the generation of new, similar samples, and providing a more meaningful representation.*
@@ -46,14 +46,14 @@ In order to compare the results of the language models with compressed embedding
 </p>
 
 
-## Approach [2](https://github.com/s-knauer/nlp-edra/tree/main/Approach%202)
+## Approach [2](./Approach%202/)
 Traditional dimensionality reduction techniques including PCA, LDA, and t-SNE.
 
 <p align="center" width="100%">
     <img width="40%" src="./images/traditional.png">
 </p>
 
-## Approach [3](https://github.com/s-knauer/nlp-edra/tree/main/Approach%203)
+## Approach [3](./Approach%203)
 - Inspired by: A novel approach for dimension reduction using word embedding: An enhanced text classification approach [Link](https://www.sciencedirect.com/science/article/pii/S2667096822000052) Singh et al., International Journal of Information Management Data Insights
 Volume 2, Issue 1, April 2022
 
@@ -77,4 +77,4 @@ In summary, our experiments confirmed that reducing embedding vector dimensional
 ## Note
 This repository is the outcome of a group project conducted during the "Introduction to Natural Language Processing" course at the University of Bonn in the summer semester of 2023. Our dedicated team members include Arwah Jawwad, Behnam Fanitabasi, Behzad Shomali, Mahnaz Mirhaj, and Sven Knauer.
 
-*For more in-depth information, we invite you to read the [final report](https://github.com/s-knauer/nlp-edra/tree/main/Problem_Solving).*
+*For more in-depth information, we invite you to read the [final report](final_report.pdf).*
